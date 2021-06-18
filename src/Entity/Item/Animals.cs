@@ -9,14 +9,14 @@ namespace OregonTrailDotNet.Entity.Item
     public static class Animals
     {
         /// <summary>
-        ///     Gets the bear.
+        ///     Gets the Lions.
         /// </summary>
-        public static SimItem Bear => new SimItem(Entities.Food, "Bear", "pounds", "pound", 2000, 0);
+        public static SimItem Lions => new SimItem(Entities.Food, "Lions", "pounds", "pound", 2000, 0);
 
         /// <summary>
         ///     You must use *all* the buffalo...
         /// </summary>
-        public static SimItem Buffalo => new SimItem(Entities.Food, "Buffalo", "pounds", "pound", 2000, 0,
+        public static SimItem Birds => new SimItem(Entities.Food, "Birds", "pounds", "pound", 2000, 0,
             GameSimulationApp.Instance.Random.Next(350, 500));
 
         /// <summary>
